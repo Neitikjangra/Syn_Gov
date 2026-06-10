@@ -1,5 +1,4 @@
-<div align="center">
-  <img src="./web/public/images/syn-gov-logo.png" alt="Syn_Gov Logo" width="200" />
+
   <h1>SynGov 🏛️</h1>
   <p><strong>AI-Powered, Blockchain-Backed Governance for Modern Communities</strong></p>
   
