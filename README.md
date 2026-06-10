@@ -1,13 +1,13 @@
 
   <h1 align="center">SynGov 🏛️</h1>
-  <p><strong>AI-Powered, Blockchain-Backed Governance for Modern Communities</strong></p>
+  <p align = "center"><strong>AI-Powered, Blockchain-Backed Governance for Modern Communities</strong></p>
   
   [![Next.js](https://img.shields.io/badge/Next.js-15+-black?style=flat&logo=next.js)](https://nextjs.org/)
   [![Gemini](https://img.shields.io/badge/AI-Google_Gemini_2.5-blue?style=flat&logo=google)](https://deepmind.google/technologies/gemini/)
   [![Ethereum](https://img.shields.io/badge/Web3-Ethereum_Hardhat-3C3C3D?style=flat&logo=ethereum)](https://hardhat.org/)
   [![Supabase](https://img.shields.io/badge/Database-Supabase-3ECF8E?style=flat&logo=supabase)](https://supabase.com/)
   [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-</div>
+
 
 <br />
 
