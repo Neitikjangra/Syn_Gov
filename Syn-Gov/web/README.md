@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./public/images/syn-gov-logo.png" alt="SynGov Logo" width="200" />
+  <img src="./web/public/images/syn-gov-logo.png" alt="Syn_Gov Logo" width="200" />
   <h1>SynGov 🏛️</h1>
   <p><strong>AI-Powered, Blockchain-Backed Governance for Modern Communities</strong></p>
   
@@ -25,7 +25,7 @@ Traditional community governance is plagued by chaotic group chats, disorganized
 ## ⚡ Core Features
 
 - 🧠 **AI-Powered Proposal Analysis:** Submit raw, unstructured ideas and let Google Gemini 2.5 instantly synthesize them. The AI automatically extracts the core objective, budget impact, risk level, and timeline, transforming a block of text into a professional executive summary.
-- 🔗 **Blockchain Transparency (Web3):** Every proposal created and every vote cast is securely logged to a Web3 Smart Contract (`SynGovLogger.sol`). This ensures that the governance process is immutable, verifiable, and completely tamper-proof.
+- 🔗 **Blockchain Transparency (Web3):** Every proposal created and every vote cast is securely logged to a Web3 Smart Contract (`Syn_GovLogger.sol`). This ensures that the governance process is immutable, verifiable, and completely tamper-proof.
 - 📊 **Real-Time Analytics & KPI Dashboards:** Visualize community health, active proposals by category, and historical pass/reject rates through a dynamic, real-time data dashboard.
 - 🔐 **Simulated / Configurable Authentication:** Secure member login flows using HTTP-only cookies, ready to be scaled to full OAuth/SSO.
 - 🎨 **Premium Aesthetic UI:** Built with a stunning, highly responsive Next.js interface featuring glassmorphism, fluid micro-animations, and modern design principles.
@@ -47,7 +47,7 @@ SynGov is built using a modern, full-stack architecture combining Web2 speed wit
 
 ### Blockchain / Web3
 - **Network:** Local Ethereum Node via [Hardhat](https://hardhat.org/)
-- **Smart Contracts:** Solidity (`SynGovLogger.sol`)
+- **Smart Contracts:** Solidity (`Syn_GovLogger.sol`)
 - **Integration:** [Ethers.js](https://docs.ethers.org/) (v6)
 
 ---
@@ -63,13 +63,14 @@ Follow these instructions to set up the SynGov environment locally on your machi
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Dineshkumar2006471/Syn-Gov.git
-cd Syn-Gov
+git clone https://github.com/Neitikjangra/Syn_Gov.git
+cd Syn_Gov
 ```
 
 ### 2. Configure Environment Variables
-Create your environment file in the `web` directory:
+Navigate to the `web` directory and create your environment file:
 ```bash
+cd web
 touch .env.local
 ```
 Add the following configuration (replace with your actual API keys):
@@ -95,14 +96,14 @@ npx hardhat node
 ```
 Leave that terminal running. In a **second terminal**, deploy the contract:
 ```bash
-# From the root Syn-Gov directory
 npx hardhat run scripts/deploy.js --network localhost
 ```
 *Take note of the deployed contract address output in the terminal, and update the `CONTRACT_ADDRESS` in your `.env.local` file.*
 
 ### 4. Start the Frontend Application
-Install dependencies and start the development server:
+Navigate back to the `web` directory, install dependencies, and start the development server:
 ```bash
+cd web
 npm install
 npm run dev
 ```
