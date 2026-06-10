@@ -1,5 +1,5 @@
 
-  <h1>SynGov 🏛️</h1>
+  <h1 align="center">SynGov 🏛️</h1>
   <p><strong>AI-Powered, Blockchain-Backed Governance for Modern Communities</strong></p>
   
   [![Next.js](https://img.shields.io/badge/Next.js-15+-black?style=flat&logo=next.js)](https://nextjs.org/)
